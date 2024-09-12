@@ -20,7 +20,7 @@ public class Robot extends TimedRobot {
   private Command m_autonomousCommand;
 
   private RobotContainer m_robotContainer;
-  private CommandXboxController xbox = new CommandXboxController(0);
+  private CommandXboxController xbox = new CommandXboxController(1);
   private PWMSparkMax motor = new PWMSparkMax(0);
   /**
    * This function is run when the robot is first started up and should be used for any
